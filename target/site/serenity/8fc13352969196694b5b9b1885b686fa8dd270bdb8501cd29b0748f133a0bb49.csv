@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"As a user of the Travelocity travel page, I want to log in and register in order to buy a flight and book an accommodation.","Creación de un usuario en la pagina Travelocity","PENDING","2020-12-19T12:39:20.622-05:00[America/Bogota]","0.0","0.3"
+"As a user of the Travelocity travel page, I want to log in and register in order to buy a flight and book an accommodation.","Creating a user on the Travelocity website","SUCCESS","2020-12-19T15:57:28.398-05:00[America/Bogota]","0.0","19.98"
+"As a user of the Travelocity travel page, I want to log in and register in order to buy a flight and book an accommodation.","Login to the TraveloCity platform","SUCCESS","2020-12-19T17:13:09.199-05:00[America/Bogota]","0.0","17.06"
+"As a user of the Travelocity travel page, I want to log in and register in order to buy a flight and book an accommodation.","Going to the TraveloCity platform","SUCCESS","2020-12-19T22:20:00.689-05:00[America/Bogota]","0.0","30.87"
