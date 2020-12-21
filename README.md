@@ -24,3 +24,7 @@ Patrones de Desarrollo:
 El proyecto puede ser descargado y ejecutado si cuenta con las herramientas necesarias en su pc, solo se dirige a la opción: Code presiona clic y luego copia la url que se muestra en el pop-up que se despliega inmediatamente. Luego abre una terminal de git en la carpeta donde desea descargar el proyecto y  con el comando: git clone <url copiada anteriormente>  el proyecto debe descargarse y estar funcional.
 El proyecto cuenta también con un archivo .gitignore que nos protege de subir archivos basuras a nuestro repositorio.
 
+Las evidencias de las ejecuciones están guardadas en las siguientes rutas:
+Evidencias Autmatización: co.com.certification.challenge.Automation\target\site\serenity
+Evidencias Manuales: co.com.certification.challenge.Automation\src\test\resources
+
