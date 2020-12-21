@@ -33,3 +33,6 @@ esrc/main/java/co/com/certification/challenge/Automation/tasks/ReservationsHotel
 vsrc/main/java/co/com/certification/challenge/Automation/userinterface/UserHotelReservations/UserHotelReservations.java,0\3\03c1a7d2d9f9541b8cb536babb37012e376dd010
 •
 esrc/main/java/co/com/certification/challenge/Automation/questions/NumberPeople/CheckNumberPeople.java,9\6\968c615edb7e9e2b6b44f1294d2aa016849b8eb7
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
