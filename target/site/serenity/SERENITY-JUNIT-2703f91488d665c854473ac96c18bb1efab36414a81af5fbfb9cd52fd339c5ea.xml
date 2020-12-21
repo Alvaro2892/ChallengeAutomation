@@ -1,10 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="I As a user of the Travelocity website, I want to find a destination to go on vacation" skipped="0" tests="1" time="60.42" timestamp="2020-12-21 11:58:37"><testcase name="the user wants to make a reservation for a flight by avianca"><error message="Expected condition failed: waiting for By.xpath: //*[@id=&quot;room-1-0-adults&quot;] to be displayed (tried for 5 second(s) with 100 milliseconds interval)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'SSMEDLAPPROAA12', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'&#10;Driver info: driver.version: unknown" type="java.lang.AssertionError">Expected condition failed: waiting for By.xpath: //*[@id="room-1-0-adults"] to be displayed (tried for 5 second(s) with 100 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SSMEDLAPPROAA12', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
-Driver info: driver.version: unknown</error><system-err>Expected condition failed: waiting for By.xpath: //*[@id="room-1-0-adults"] to be displayed (tried for 5 second(s) with 100 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SSMEDLAPPROAA12', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
-Driver info: driver.version: unknown&#13;
-co.com.certification.challenge.Automation.stepdefinitions.TraveloCity.heVerifiesThatTheFlightChosenWasTheOneDelivered(TraveloCity.java:65)&#13;
-✽.he verifies that the flight chosen was the one delivered Avianca(src/test/resources/features/ChallengeAutomation.feature:29)&#13;
-</system-err></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="I As a user of the Travelocity website, I want to find a destination to go on vacation" skipped="0" tests="1" time="78.58" timestamp="2020-12-21 12:19:40"><testcase name="the user wants to make a reservation for a flight by avianca"/></testsuite>

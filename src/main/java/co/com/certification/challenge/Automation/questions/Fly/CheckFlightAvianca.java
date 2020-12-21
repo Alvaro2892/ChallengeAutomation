@@ -1,6 +1,5 @@
 package co.com.certification.challenge.Automation.questions.Fly;
 
-import co.com.certification.challenge.Automation.questions.NumberPeople.CheckNumberPeople;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.questions.Text;
@@ -16,9 +15,9 @@ public class CheckFlightAvianca implements Question<Boolean>
         this.word = word;
     }
 
-    public static CheckNumberPeople is(String questionv)
+    public static CheckFlightAvianca is(String questionv)
     {
-        return new CheckNumberPeople(questionv);
+        return new CheckFlightAvianca(questionv);
     }
 
     @Override

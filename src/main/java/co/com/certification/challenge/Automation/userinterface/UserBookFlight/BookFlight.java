@@ -15,5 +15,5 @@ public class BookFlight
     public static final Target SCROLLAIRLINE = Target.the("Scroll airline").located(By.xpath("//*[@id=\"airlines\"]/div/div[1]"));
     public static final Target CLICKAVIANCA = Target.the("Click Avianca").located(By.xpath("//*[@id=\"airlines\"]/div/div[3]/div"));
     public static final Target SCROLLFILTER = Target.the("Scroll filter").located(By.xpath("//*[@id=\"sort-filter-drawer\"]/div[1]/div[1]/div/div[1]"));
-    public static final Target VERIFYFLIGHT = Target.the("verify flight").located(By.xpath("/html/body/div[3]/div[10]/ul/li/button/span[2]"));
+    public static final Target VERIFYFLIGHT = Target.the("verify flight").located(By.xpath("/html/body/div[2]/div[10]/ul/li/button/span[2]"));
 }
