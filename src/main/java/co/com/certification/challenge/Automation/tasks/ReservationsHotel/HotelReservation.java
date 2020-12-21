@@ -1,11 +1,9 @@
 package co.com.certification.challenge.Automation.tasks.ReservationsHotel;
 
 import co.com.certification.challenge.Automation.model.InitializeObjects;
-import co.com.certification.challenge.Automation.tasks.GoingToTravel.GoingToTraveloCity;
 import co.com.certification.challenge.Automation.userinterface.ReservationsHotel.ReservationsHotel;
 import co.com.certification.challenge.Automation.userinterface.UserGoingTo.InterfaceGoingTo;
 import net.serenitybdd.screenplay.Actor;
-import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
