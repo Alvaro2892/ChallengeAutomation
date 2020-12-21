@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="I As a user of the Travelocity website, I want to find a destination to go on vacation" skipped="0" tests="1" time="14.93" timestamp="2020-12-21 11:12:30"><testcase name="the user wants to make a reservation for a flight by avianca"><error message="No such field co.com.certification.challenge.Automation.model.InitializeObjects.p" type="cucumber.runtime.CucumberException">No such field co.com.certification.challenge.Automation.model.InitializeObjects.p</error><system-err>No such field co.com.certification.challenge.Automation.model.InitializeObjects.p&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>

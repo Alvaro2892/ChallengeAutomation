@@ -4,6 +4,7 @@ import co.com.certification.challenge.Automation.model.InitializeObjects;
 import co.com.certification.challenge.Automation.questions.GoingTo.CheckGoingTo;
 import co.com.certification.challenge.Automation.questions.NumberPeople.CheckNumberPeople;
 import co.com.certification.challenge.Automation.tasks.GoingToTravel.GoingToTraveloCity;
+import co.com.certification.challenge.Automation.tasks.ReservationFly.TaskBookFlight;
 import co.com.certification.challenge.Automation.tasks.ReservationsHotel.HotelReservation;
 import co.com.certification.challenge.Automation.tasks.StartBrowser.StartBrowser;
 import cucumber.api.java.en.Given;
@@ -50,5 +51,18 @@ public class TraveloCity
         theActorInTheSpotlight().should(seeThat(CheckNumberPeople.is(questionv)));
 
     }
+
+    @When("^he enters and looks for a flight but with the avianca airline$")
+    public void heEntersAndLooksForAFlightButWithTheAviancaAirline(List<InitializeObjects> data)
+    {
+        theActorInTheSpotlight().attemptsTo(TaskBookFlight.onTraveloCity(data));
+    }
+
+    @Then("^he verifies that the flight chosen was the one delivered$")
+    public void heVerifiesThatTheFlightChosenWasTheOneDelivered()
+    {
+
+    }
+
 
 }
