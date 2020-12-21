@@ -1,6 +1,6 @@
 
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÓÊ¥ğ
 
 java:S1128"mRemove this unused import 'co.com.certification.challenge.Automation.tasks.GoingToTravel.GoingToTraveloCity'.(ñ‚¾ƒùÿÿÿÿ8Ç²è.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÓÊ¥ğ
 e
 java:S1128"CRemove this unused import 'net.serenitybdd.screenplay.Performable'.(ğ”„Îüÿÿÿÿ8¤»Ÿè.
