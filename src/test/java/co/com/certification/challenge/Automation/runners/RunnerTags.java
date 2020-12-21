@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(features = "src/test/resources/features/ChallengeAutomation.feature",
-        tags = {"@Fly"},
+
         glue = {"co.com.certification.challenge.Automation.stepdefinitions","co.com.certification.challenge.Automation.util"},
         snippets = SnippetType.CAMELCASE )
 
