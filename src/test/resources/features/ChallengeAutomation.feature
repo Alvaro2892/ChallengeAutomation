@@ -16,6 +16,10 @@ Feature: I As a user of the Travelocity website, I want to find a destination to
      @HotelReservation
      Scenario: the user wants to make a reservation with four guests
        When he enters the web site and looks for hotels for four people
-         |GointTo  |
+         |GointTo|
          |Pereira|
        Then he verifies that in the guest option there is the number of people that the user entered 4
+
+       @Fly
+
+       Scenario: the user wants to make a reservation for a flight by avianca
