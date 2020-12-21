@@ -24,6 +24,6 @@ Feature: I As a user of the Travelocity website, I want to find a destination to
 
        Scenario: the user wants to make a reservation for a flight by avianca
          When he enters and looks for a flight but with the avianca airline
-           |GointTo|
-           |Bogotá|
-         Then he verifies that the flight chosen was the one delivered
+           |orgin |GointTo  |
+           |Bogotá|Cartagena|
+         Then he verifies that the flight chosen was the one delivered Avianca

@@ -1,6 +1,7 @@
 package co.com.certification.challenge.Automation.stepdefinitions;
 
 import co.com.certification.challenge.Automation.model.InitializeObjects;
+import co.com.certification.challenge.Automation.questions.Fly.CheckFlightAvianca;
 import co.com.certification.challenge.Automation.questions.GoingTo.CheckGoingTo;
 import co.com.certification.challenge.Automation.questions.NumberPeople.CheckNumberPeople;
 import co.com.certification.challenge.Automation.tasks.GoingToTravel.GoingToTraveloCity;
@@ -58,10 +59,10 @@ public class TraveloCity
         theActorInTheSpotlight().attemptsTo(TaskBookFlight.onTraveloCity(data));
     }
 
-    @Then("^he verifies that the flight chosen was the one delivered$")
-    public void heVerifiesThatTheFlightChosenWasTheOneDelivered()
+    @Then("^he verifies that the flight chosen was the one delivered (.*)$")
+    public void heVerifiesThatTheFlightChosenWasTheOneDelivered(String questionv)
     {
-
+        theActorInTheSpotlight().should(seeThat(CheckFlightAvianca.is(questionv)));
     }
 
 
